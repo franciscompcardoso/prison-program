@@ -1,0 +1,33 @@
+{
+  "name": "spacemanager",
+  "version": "1.0.0",
+  "description": "pw",
+  "main": "loader.js",
+  "dependencies": {
+    "all": "0.0.0",
+    "bcrypt": "^3.0.7",
+    "bcrypt-nodejs": "0.0.3",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "braces": "^2.3.2",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "express-session": "^1.17.0",
+    "express-validator": "^5.3.1",
+    "forever": "^1.0.0",
+    "mysql": "^2.17.1",
+    "mysql2": "^2.0.1",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^5.21.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "g3",
+  "license": "ISC"
+}
